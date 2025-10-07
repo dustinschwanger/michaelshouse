@@ -303,16 +303,21 @@ a:focus {
 /* ===== Mission Statement ===== */
 .mission-statement {
   background-color: var(--warm-cream);
-  padding: var(--spacing-2xl) 0;
+  padding: var(--spacing-3xl) 0;
   text-align: center;
 }
 
 .mission-statement p {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   line-height: 1.8;
   color: var(--charcoal-gray);
+  background-color: var(--pure-white);
+  padding: var(--spacing-2xl);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  border-left: 5px solid var(--primary-purple);
 }
 
 /* ===== Goals Section ===== */
@@ -383,7 +388,11 @@ a:focus {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: var(--spacing-lg);
-  padding: var(--spacing-3xl) 0;
+  padding: var(--spacing-2xl) 0;
+}
+
+.donation-section {
+  padding: var(--spacing-xl) 0;
 }
 
 .card {
