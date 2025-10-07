@@ -1,0 +1,19 @@
+{
+  "name": "michaels-house-website",
+  "version": "1.0.0",
+  "description": "Michael's House - Erie County Children's Advocacy Center Website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "static-site",
+    "advocacy",
+    "children"
+  ],
+  "author": "Michael's House",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

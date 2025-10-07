@@ -1,0 +1,115 @@
+/* Michael's Story Page Styles */
+
+.story-content {
+    background-color: var(--warm-cream);
+}
+
+.content-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.memorial-note {
+    background: linear-gradient(135deg, var(--soft-sage) 0%, #9AAD8E 100%);
+    padding: var(--spacing-xl);
+    border-radius: var(--radius-lg);
+    margin-bottom: var(--spacing-2xl);
+    text-align: center;
+    box-shadow: var(--shadow-md);
+}
+
+.memorial-note p {
+    margin: 0;
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: var(--charcoal-gray);
+    line-height: 1.8;
+}
+
+.story-text {
+    background-color: var(--pure-white);
+    padding: var(--spacing-2xl);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-sm);
+}
+
+.story-text p {
+    font-size: 1.05rem;
+    line-height: 1.9;
+    margin-bottom: var(--spacing-lg);
+    color: var(--charcoal-gray);
+}
+
+.quote-block {
+    margin: var(--spacing-2xl) 0;
+    padding: var(--spacing-xl);
+    background: linear-gradient(135deg, var(--soft-lavender) 0%, #D8D8F8 100%);
+    border-left: 5px solid var(--primary-purple);
+    border-radius: var(--radius-md);
+}
+
+.quote-block blockquote {
+    margin: 0;
+}
+
+.quote-block p {
+    font-size: 1.125rem;
+    font-style: italic;
+    color: var(--deep-plum);
+    margin-bottom: var(--spacing-md);
+    line-height: 1.8;
+}
+
+.quote-block cite {
+    display: block;
+    text-align: right;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    color: var(--primary-purple);
+}
+
+.purpose-statement {
+    margin-top: var(--spacing-2xl);
+    padding: var(--spacing-xl);
+    background: linear-gradient(135deg, var(--primary-purple) 0%, var(--deep-plum) 100%);
+    color: var(--pure-white);
+    border-radius: var(--radius-lg);
+    text-align: center;
+}
+
+.purpose-statement h2 {
+    color: var(--pure-white);
+    margin-bottom: var(--spacing-md);
+    font-size: 1.75rem;
+}
+
+.purpose-statement p {
+    margin: 0;
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: var(--soft-lavender);
+}
+
+/* Responsive */
+@media (max-width: 767px) {
+    .story-text {
+        padding: var(--spacing-lg);
+    }
+
+    .memorial-note {
+        padding: var(--spacing-lg);
+    }
+
+    .quote-block {
+        padding: var(--spacing-lg);
+    }
+
+    .purpose-statement {
+        padding: var(--spacing-lg);
+    }
+
+    .quote-block p {
+        font-size: 1rem;
+    }
+}

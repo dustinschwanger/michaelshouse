@@ -1,0 +1,20 @@
+/* Shared Page Styles for About, Story, Donate, Contact */
+
+/* Page Header */
+.page-header {
+    background: linear-gradient(135deg, var(--primary-purple) 0%, var(--deep-plum) 100%);
+    padding: var(--spacing-2xl) 0;
+    text-align: center;
+}
+
+.page-header h1 {
+    color: var(--pure-white);
+    margin: 0;
+    font-size: clamp(2rem, 5vw, 3rem);
+}
+
+.page-header .subtitle {
+    color: var(--soft-lavender);
+    font-size: 1.125rem;
+    margin: var(--spacing-sm) 0 0;
+}
